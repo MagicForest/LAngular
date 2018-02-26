@@ -6,7 +6,7 @@ import { HeroService } from './hero.service';
 @Component({
   selector: 'my-heroes',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
   template: `
     <h1>{{title}}</h1>
     <h2>My Heroes</h2>
@@ -16,7 +16,7 @@ import { HeroService } from './hero.service';
       </li>
     </ul>
     <hero-detail [hero]="selectedHero"></hero-detail>
-  `
+  `,
   styles: [`
     .selected{
        background-color: #CFD8DC !important;
